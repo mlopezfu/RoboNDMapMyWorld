@@ -11,7 +11,9 @@ cd catkin_ws/src
 
 catkin_init_workspace
 
-clone this repo
+clone this repo. This repo has submodules, so to clone this repo, the following command must be typed
+
+git clone --recursive https://github.com/mlopezfu/RoboNDMapMyWorld.git
 
 cd ..
 
